@@ -12,7 +12,8 @@ describe('Form Authentication Page', () => {
       it('Confirm login', () => {
          // Step 3: Click the login button
         cy.get('button[type="submit"]').click()
-      })
+  
+    })
 
     it('Verify Secure Page Showing', () => {
     
